@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">FarmERP</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--Land details-->
+    <string name="number_of_land">Please select number of land you own</string>
+    <string name="land_number">Land number</string>
+    <string name="land_name">Land Name</string>
+    <string name="total_area">Total area</string>
+    <string name="soil_type">Soil Type </string>
+    <string name="year_soil_test">Year of Soil Test</string>
+    <string name="attach_soil_test">Attach soil test report</string>
+    <string name="water_loggin_problem_land">Water logging problem at Land</string>
+    <string name="number_of_last_crop_year">Number of crop last year</string>
+    <string name="last_crop">last Crop</string>
+    <string name="total_yield">Total Yield</string>
+    <string name="amount_received_last_crop">Amount Received for last crop</string>
+    <string name="land_jio_tag">Land Jio Tag</string>
+
+
+    <!--- Cow details-->
+    <string name="dailry_product">Your dairy product</string>
+    <string name="cow">Cow</string>
+    <string name="Buffalo">Buffalo</string>
+    <string name="goat">Goat</string>
+    <string name="total_number">Total Number</string>
+    <string name="dairy_product_milk_every_day">Production of milk every day</string>
+    <string name="dairy_product_purchaser">Purchaser</string>
+    <string name="dairy_product_phone_number">Purchaser phone Number</string>
+    <string name="dairy_product_sale_value">Sale value</string>
+
+    <!--Fish DETAILS-->
+    <string name="fish_desc">Fish description</string>
+    <string name="fish_insert_number">Please insert number pond number you own</string>
+    <string name="fish_number">Pond number</string>
+    <string name="fish_area">Pond\'s  total Area</string>
+    <string name="last_fish_production">Last fish production of</string>
+    <string name="purchaser">Purchaser</string>
+    <string name="purchaser_mobile_number">Purchaser phone Number</string>
+
+    <!---family deatils-->
+    <string name="family_details">Your loved one</string>
+    <string name="number_of_family">Number of adult family of your family</string>
+    <string name="family_member_of_child">Number of children of your family</string>
+    <string name="elder_child_age">Elder Children age</string>
+    <string name="elder_child_qaulification">Elder Children  education</string>
+    <string name="young_child_age">Younger Children age</string>
+    <string name="young_child_qualification">Younger Children  education</string>
+
+
+</resources>

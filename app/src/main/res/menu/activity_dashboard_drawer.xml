@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_myaccount"
+            android:icon="@drawable/personal_details"
+            android:title="Farmer Registration" />
+        <item
+            android:id="@+id/nav_myorder"
+            android:icon="@drawable/fee_detail"
+            android:title="Collect funds" />
+
+        <item android:title="Today's Tasks"
+            android:id="@+id/nav_services_hist"
+            android:icon="@drawable/news_events"/>
+        <item
+            android:id="@+id/nav_feepayment"
+            android:icon="@drawable/fee_payments"
+            android:title="Transfer Funds" />
+        <item
+            android:id="@+id/nav_query"
+            android:icon="@drawable/query"
+            android:title="Query" />
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/contact_us"
+            android:title="contact us" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_log_out"
+            android:title="Log Out" />
+    </group>>
+
+</menu>

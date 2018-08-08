@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pisystem.raghoji.LandDetails">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/number_of_land"
+                    android:textSize="18sp"
+                    android:typeface="serif"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorPrimaryDark"
+                    />
+                <Spinner
+                    android:id="@+id/spnrnumber_of_land"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/land_number"
+                    android:textSize="18sp"
+                    android:typeface="serif"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorPrimaryDark"
+                    />
+                <Spinner
+                    android:id="@+id/spnrlandnumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/total_area"
+                    android:textSize="18sp"
+                    android:typeface="serif"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorPrimaryDark"
+                    />
+                <EditText
+                    android:id="@+id/edttotal_area"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/land_name"
+                    android:textSize="18sp"
+                    android:typeface="serif"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorPrimaryDark"
+                    />
+                <EditText
+                    android:id="@+id/edtland_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="text"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/soil_type"
+                    android:textSize="18sp"
+                    android:typeface="serif"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorPrimaryDark"
+                    />
+                <Spinner
+                    android:id="@+id/spnrsoil_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/year_soil_test"
+                    android:textSize="18sp"
+                    android:typeface="serif"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_gravity="center"
+                    />
+                <EditText
+                    android:id="@+id/edtyear_soil_test"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/water_loggin_problem_land"
+                    android:textSize="18sp"
+                    android:typeface="serif"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorPrimaryDark"
+                    />
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:paddingRight="5dp">
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Yes"
+                        android:layout_weight="1"
+                        />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No"
+                        android:layout_weight="1"
+                        />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/last_crop"
+                    android:textSize="18sp"
+                    android:typeface="serif"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_gravity="center"
+                    />
+                <EditText
+                    android:id="@+id/edt_last_crop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/number_of_last_crop_year"
+                    android:textSize="18sp"
+                    android:typeface="serif"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorPrimaryDark"
+                    />
+                <Spinner
+                    android:id="@+id/spnr_number_of_last_crop_year"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/land_jio_tag"
+                    android:textSize="18sp"
+                    android:typeface="serif"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_gravity="center"
+                    />
+                <EditText
+                    android:id="@+id/edt_land_jio_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="text"
+                    android:drawableRight="@drawable/ic_location"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtsubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="50dp"
+                android:text="Submit"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/white"
+                android:typeface="serif"
+                android:padding="10dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

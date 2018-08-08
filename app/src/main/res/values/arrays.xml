@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<string-array name="caste_array">
+        <item>Gen</item>
+        <item>SC</item>
+        <item>ST</item>
+        <item>OBC</item>
+        <item>Others</item>
+    </string-array> -->
+    <string-array name="subcaste_array">
+        <item >Brahmin</item>
+        <item>Rajput</item>
+        <item>Baniya</item>
+        <item>Lala</item>
+        <item>Chamar</item>
+        <item>Lohar</item>
+        <item>kumhar</item>
+    </string-array>
+    <string-array name="district_array">
+        <item>Jammu</item>
+        <item>Rajouri</item>
+        <item>Poonch</item>
+        <item>Srinagar</item>
+        <item>Kathua</item>
+        <item>Samba</item>
+        <item>Anantnag</item>
+    </string-array>
+    <string-array name="block_array">
+        <item>Akhnoor</item>
+        <item>Jourian</item>
+        <item>Khour</item>
+        <item>sunderbani</item>
+        <item>nowshera</item>
+        <item>RSPura</item>
+        <item>Baramulla</item>
+    </string-array>
+    <string-array name="panchayat_array">
+        <item>Bakore</item>
+        <item>Manchak</item>
+        <item>devipur</item>
+        <item>Nikkian</item>
+        <item>Ghari</item>
+        <item>RSPura</item>
+        <item>Baramulla</item>
+    </string-array>
+</resources>
